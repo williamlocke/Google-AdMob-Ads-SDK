@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '5.0'
   
-  s.source_files =  'GoogleMobileAdsSdkiOS-6.12.0/**/*.[h,m]'
+  s.source_files =  'GoogleMobileAdsSdkiOS-6.12.0/*.[h]'
   
   s.frameworks =     "AdSupport", "AudioToolbox", "AVFoundation", "CoreGraphics", "CoreTelephony", "EventKit", "EventKitUI", "MessageUI", "StoreKit", "SystemConfiguration"
   
