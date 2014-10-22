@@ -26,8 +26,6 @@ Pod::Spec.new do |s|
   s.xcconfig   =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/Google-AdMob-Ads-SDK/GoogleMobileAdsSdkiOS-6.12.0"' }
   
   s.requires_arc = false
-    
-	s.dependency 'Google-AdMob-Ads-SDK'
 	
   
 end
